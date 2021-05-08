@@ -19,7 +19,7 @@ namespace IMC_DecisaoSimples
 
             resultado = peso / Math.Pow(altura, 2);
 
-            int novoResultado = Convert.ToInt32(resultado);
+            double novoResultado = Convert.ToDouble(resultado);
 
             if (novoResultado < 17)
             {
